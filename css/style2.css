@@ -1,0 +1,240 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: blue;
+ 
+}
+header nav{
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    margin-bottom:5%;
+    text-align: right;
+    padding-top: 2%;
+    padding-bottom:2%;
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    width: 5%;
+    padding: 5%;
+    margin-top: 5%;
+    font-size: 1.5em;
+}
+.enlaceInsertar{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: blue;
+    margin-left: 5%;
+}
+.enlaceVolver{
+    text-decoration: none;
+    font-size: 1.25em;
+    color: white;
+    margin-left: 5%;
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#form{
+    float: right;
+    width: 35%;
+    margin: 10px auto;
+    margin-top: 100px;
+    font-size: 21px;
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 1%;
+}
+.tabla{
+    float: left;
+    width: 50%;
+    margin: 10px auto;
+}
+#enlaceAdmin {
+    text-decoration: none;
+    color:red;
+    font-size: 20px;
+    float: right;
+    margin: 20px ;
+}
+#enlaceAdmin a{
+    color:red;
+    text-decoration: none;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+table {    
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;  
+    margin: 45px;   
+    width: 480px;
+    text-align: left;  
+    border-collapse: collapse; 
+    margin: 0 auto;
+}
+
+th {     font-size: 13px;     font-weight: normal;     padding: 8px;     background: #b9c9fe;
+         border-top: 4px solid #aabcfe;    border-bottom: 1px solid #fff; color: #039; }
+
+td {    padding: 8px;     background: #e8edff;     border-bottom: 1px solid #fff;
+        color: #669;    border-top: 1px solid transparent; }
+
+tr:hover td { background: #d0dafd; color: #339; }
+
+.tabla h1, .tabla h2, .tabla h3, .tabla h4{
+    margin-left: 50px;
+}
+input[type="text"]{
+    width:83%;
+    margin-top:10px;
+    height:25px;
+    margin-bottom: 15px;
+    padding:10px;
+    border:3px solid #2BC1F2;
+}
+input[type="number"]{
+    width:83%;
+    margin-top:10px;
+    height:25px;
+    margin-bottom: 15px;
+    padding:10px;
+    border:3px solid #2BC1F2;
+}
+input[type="date"]{
+    width:83%;
+    margin-top:10px;
+    height:25px;
+    margin-bottom: 15px;
+    padding:10px;
+    border:3px solid #2BC1F2;
+}
+input[type="datetime"]{
+    width:83%;
+    margin-top:10px;
+    height:25px;
+    margin-bottom: 15px;
+    padding:10px;
+    border:3px solid #2BC1F2;
+}
+input[type="submit"]{
+    width:83%;
+    padding: 10px 45px;
+    background-color: #2BC1F2;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+.p-container input{
+    width:90%;
+    margin-left: 5px;
+    padding: 5px 23px;
+    background-color: #2BC1F2;
+    text-align: center;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+.caja {
+   margin:20px auto 40px auto;	
+   border:1px solid #d9d9d9;
+   height:30px;
+   overflow: hidden;
+   width: 230px;
+   position:relative;
+}
+select {
+   background: white;
+   border: none;
+   font-size: 14px;
+   height: 30px;
+   padding: 5px;
+   width: 250px;
+   color:black;
+   
+}
+select:focus{ outline: none;}
+
+.caja::after{
+	content:"\025be";
+	display:table-cell;
+	padding-top:7px;
+	text-align:center;
+	width:30px;
+	height:30px;
+	background-color:#d9d9d9;
+	position:absolute;
+	top:0;
+	right:0px;	
+	pointer-events: none;
+}
+label{
+    float: left;
+    font-size: 16px;
+    margin-top: 5px;
+    color:white;
+}
+
+
+div#main{
+    width: 830px;
+    height: 650px;
+    margin: 0px auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+div#form_sample{
+    text-align:center;
+    background-color: black;
+    border: 1px solid #ccc;
+    width: 40%;
+    margin-left:30%;
+    margin-right:30%;
+    padding: 0px 50px 15px;
+    margin-top:20px;
+    box-shadow: 0 0 15px;
+    border-radius: 6px;
+    float:left;
+}
+
+#main h2{
+    margin-top:3%;
+    text-align:center;
+    margin-left:25%;
+    margin-right:15%;
+}
+
+hr{
+    margin-top:-5px;
+}
+.NoDisponible {
+    color:white;
+}
+#nodispo{
+    background-color: black;
+    border: 2px solid white;
+    width: 50%;
+    margin: 50px auto;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+.volverVehiculos a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 50px auto;
+    font-size: 1.25em;
+}
+.volverVehiculos{
+    margin-left: 100px;
+}
